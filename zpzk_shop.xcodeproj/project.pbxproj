@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		04A9057D1CE1CAEB007323C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9057C1CE1CAEB007323C2 /* AppDelegate.swift */; };
-		04A9057F1CE1CAEB007323C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9057E1CE1CAEB007323C2 /* ViewController.swift */; };
 		04A905821CE1CAEB007323C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A905801CE1CAEB007323C2 /* Main.storyboard */; };
 		04A905841CE1CAEB007323C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A905831CE1CAEB007323C2 /* Assets.xcassets */; };
 		04A905871CE1CAEB007323C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A905851CE1CAEB007323C2 /* LaunchScreen.storyboard */; };
+		04B0E2281CE46DEE00217956 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0E2261CE46DEE00217956 /* HomeViewController.swift */; };
+		04B0E2291CE46DEE00217956 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0E2271CE46DEE00217956 /* HomeViewController.xib */; };
+		04B0E22C1CE46E0100217956 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0E22A1CE46E0100217956 /* ProductViewController.swift */; };
+		04B0E22D1CE46E0100217956 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0E22B1CE46E0100217956 /* ProductViewController.xib */; };
+		04B0E2301CE46E4600217956 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0E22E1CE46E4600217956 /* MyViewController.swift */; };
+		04B0E2311CE46E4600217956 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0E22F1CE46E4600217956 /* MyViewController.xib */; };
+		04B0E2341CE4801F00217956 /* MyNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0E2331CE4801E00217956 /* MyNetWork.swift */; };
+		6025FB92157F284C4C8743C8 /* Pods_zpzk_shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B2C7A19CAC9DC61B33861 /* Pods_zpzk_shop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A905791CE1CAEB007323C2 /* zpzk_shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zpzk_shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9057C1CE1CAEB007323C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04A9057E1CE1CAEB007323C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04A905811CE1CAEB007323C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A905831CE1CAEB007323C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A905861CE1CAEB007323C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A905881CE1CAEB007323C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B0E2261CE46DEE00217956 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04B0E2271CE46DEE00217956 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		04B0E22A1CE46E0100217956 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		04B0E22B1CE46E0100217956 /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		04B0E22E1CE46E4600217956 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		04B0E22F1CE46E4600217956 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		04B0E2331CE4801E00217956 /* MyNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNetWork.swift; sourceTree = "<group>"; };
+		0C189BBF295C7065BC0C8C17 /* Pods-zpzk_shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zpzk_shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zpzk_shop/Pods-zpzk_shop.debug.xcconfig"; sourceTree = "<group>"; };
+		48246078543F7D1BB23E53AB /* Pods-zpzk_shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zpzk_shop.release.xcconfig"; path = "Pods/Target Support Files/Pods-zpzk_shop/Pods-zpzk_shop.release.xcconfig"; sourceTree = "<group>"; };
+		AC4B2C7A19CAC9DC61B33861 /* Pods_zpzk_shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zpzk_shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6025FB92157F284C4C8743C8 /* Pods_zpzk_shop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +55,11 @@
 		04A905701CE1CAEA007323C2 = {
 			isa = PBXGroup;
 			children = (
+				04B0E2321CE47F9E00217956 /* custom */,
 				04A9057B1CE1CAEB007323C2 /* zpzk_shop */,
 				04A9057A1CE1CAEB007323C2 /* Products */,
+				B30E429C8967606F8601F321 /* Pods */,
+				81620DF9CA464F4D18626E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,43 @@
 			isa = PBXGroup;
 			children = (
 				04A9057C1CE1CAEB007323C2 /* AppDelegate.swift */,
-				04A9057E1CE1CAEB007323C2 /* ViewController.swift */,
+				04B0E2261CE46DEE00217956 /* HomeViewController.swift */,
+				04B0E2271CE46DEE00217956 /* HomeViewController.xib */,
+				04B0E22A1CE46E0100217956 /* ProductViewController.swift */,
+				04B0E22B1CE46E0100217956 /* ProductViewController.xib */,
+				04B0E22E1CE46E4600217956 /* MyViewController.swift */,
+				04B0E22F1CE46E4600217956 /* MyViewController.xib */,
 				04A905801CE1CAEB007323C2 /* Main.storyboard */,
 				04A905831CE1CAEB007323C2 /* Assets.xcassets */,
 				04A905851CE1CAEB007323C2 /* LaunchScreen.storyboard */,
 				04A905881CE1CAEB007323C2 /* Info.plist */,
 			);
 			path = zpzk_shop;
+			sourceTree = "<group>";
+		};
+		04B0E2321CE47F9E00217956 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				04B0E2331CE4801E00217956 /* MyNetWork.swift */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
+		81620DF9CA464F4D18626E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B2C7A19CAC9DC61B33861 /* Pods_zpzk_shop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B30E429C8967606F8601F321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C189BBF295C7065BC0C8C17 /* Pods-zpzk_shop.debug.xcconfig */,
+				48246078543F7D1BB23E53AB /* Pods-zpzk_shop.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A9058B1CE1CAEB007323C2 /* Build configuration list for PBXNativeTarget "zpzk_shop" */;
 			buildPhases = (
+				5AC963ABD8E7CFB9DB0F0B14 /* 📦 Check Pods Manifest.lock */,
 				04A905751CE1CAEB007323C2 /* Sources */,
 				04A905761CE1CAEB007323C2 /* Frameworks */,
 				04A905771CE1CAEB007323C2 /* Resources */,
+				D3001ACDBFCB5C7DCE9E0D77 /* 📦 Embed Pods Frameworks */,
+				9098C67FA2154D0E21F04150 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +177,73 @@
 			files = (
 				04A905871CE1CAEB007323C2 /* LaunchScreen.storyboard in Resources */,
 				04A905841CE1CAEB007323C2 /* Assets.xcassets in Resources */,
+				04B0E2311CE46E4600217956 /* MyViewController.xib in Resources */,
 				04A905821CE1CAEB007323C2 /* Main.storyboard in Resources */,
+				04B0E2291CE46DEE00217956 /* HomeViewController.xib in Resources */,
+				04B0E22D1CE46E0100217956 /* ProductViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC963ABD8E7CFB9DB0F0B14 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9098C67FA2154D0E21F04150 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zpzk_shop/Pods-zpzk_shop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3001ACDBFCB5C7DCE9E0D77 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zpzk_shop/Pods-zpzk_shop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A905751CE1CAEB007323C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A9057F1CE1CAEB007323C2 /* ViewController.swift in Sources */,
 				04A9057D1CE1CAEB007323C2 /* AppDelegate.swift in Sources */,
+				04B0E2341CE4801F00217956 /* MyNetWork.swift in Sources */,
+				04B0E22C1CE46E0100217956 /* ProductViewController.swift in Sources */,
+				04B0E2301CE46E4600217956 /* MyViewController.swift in Sources */,
+				04B0E2281CE46DEE00217956 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +352,7 @@
 		};
 		04A9058C1CE1CAEB007323C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C189BBF295C7065BC0C8C17 /* Pods-zpzk_shop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zpzk_shop/Info.plist;
@@ -256,6 +364,7 @@
 		};
 		04A9058D1CE1CAEB007323C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48246078543F7D1BB23E53AB /* Pods-zpzk_shop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zpzk_shop/Info.plist;
@@ -284,6 +393,7 @@
 				04A9058D1CE1CAEB007323C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
